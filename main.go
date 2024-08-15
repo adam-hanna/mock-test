@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/adam-hanna/mock-test/mock"
+	"github.com/adam-hanna/mock-test/foo"
 )
 
 func main() {
@@ -9,6 +9,6 @@ func main() {
 	doBar(&mockedFoo)
 }
 
-func doBar(f mock.IFoo) {
+func doBar(f foo.IFoo) {
 	f.Bar()
 }

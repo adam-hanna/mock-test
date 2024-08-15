@@ -1,4 +1,4 @@
 all: mock
 
 mock:
-	@mockgen -source=mock/interface.go -destination=mock/interface-mock.go -package=mock
+	@mockgen -source=foo/interface.go -destination=interface-mock.go -package=main

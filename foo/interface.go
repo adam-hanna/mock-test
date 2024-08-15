@@ -1,4 +1,4 @@
-package mock
+package foo
 
 type IFoo interface {
 	Bar() int
